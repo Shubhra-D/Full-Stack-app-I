@@ -1,0 +1,77 @@
+#logout{
+    width:6rem;
+    height:2rem;
+    background-color:rgb(223, 43, 19);
+    border-radius: 5px;
+    color:white;
+    border: none;
+    font-weight: bolder;
+    float: inline-end;
+}
+#logout:hover{
+    color:white;
+    transition: color 1s;
+    text-shadow:2px 2px 2px rgba(57, 240, 139, 0.719);
+    background-color:rgb(226, 109, 166);
+    
+}
+#user-name , h2{
+    color:rgb(135, 60, 206);
+     font-size: 1.6rem;
+     font-family:'Times New Roman', Times, serif;
+     text-align: center;
+}
+#user-data{
+    gap: 0;
+    float:right;
+    margin-right: 20px;
+
+}
+#add-todo{
+    box-shadow:rgba(99,99,99,0.2) 0px 2px 8px 0px;
+    width:30%;
+    margin:1rem;
+}
+#form-todo{
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top:20px;
+    padding:10px 0px 10px 0px ;
+    width:80%;
+}
+  #todoadd{
+    width:13rem;
+    height:2rem;
+    background-color:rgb(47, 170, 47);
+    border-radius: 5px;
+    color:white;
+    border: none;
+    font-weight: bolder;
+}
+  
+#todoadd:hover{
+    color:white;
+    transition: color 1s;
+    text-shadow:2px 2px 2px rgba(57, 240, 139, 0.719);
+    background-color:rgb(226, 109, 166);
+}
+#form-todo>input{
+   background-color: rgb(84, 241, 163); 
+}
+    
+#todo-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    width:90%;
+    margin:auto;
+}
+.todo-card{
+  box-shadow:rgba(99,99,99,0.2) 0px 2px 8px 0px;
+   
+}

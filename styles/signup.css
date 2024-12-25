@@ -1,0 +1,46 @@
+#form{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:3rem auto 3rem auto;
+    align-items: center;
+    gap:20px;
+    color:rgba(15, 5, 104, 0.89);
+    background-color: rgb(180, 138, 219);
+    padding:20px;
+    text-align: center; 
+    font-family:'Times New Roman', Times, serif;
+
+}
+h3{
+    font-size: 2rem;
+}
+#form input{
+    height:20px;
+    width:80%;
+}
+#gender{
+    height:25px;
+    width:80%;
+
+}
+gender{
+    background-color:rgb(147, 83, 206) ;
+}
+#form-btn{
+    width:13rem;
+    height:2rem;
+    background-color:rgb(47, 170, 47);
+    border-radius: 5px;
+    color:white;
+    border: none;
+    font-weight: bolder;
+}
+#form-btn:hover{
+    color:white;
+    transition: color 1s;
+    text-shadow:2px 2px 2px rgba(57, 240, 139, 0.719);
+    background-color:rgb(226, 109, 166);
+}
+    
