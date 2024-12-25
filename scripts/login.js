@@ -21,7 +21,9 @@ form.addEventListener("submit",function(event){
         if(user.length>0){
             //user present hai
             if(user[0].password==password){
-                alert("Login Success.......")
+                alert("Login Success.......");
+               // after the user has logged in let store it's data in local storage
+               localStorage.setItem("loginData",JSON.stringify(user[0]))
                 window.location.href = "todos.html"
             }else{
                 alert("Password wrong ,Please enter forget password")
