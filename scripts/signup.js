@@ -7,7 +7,7 @@ form.addEventListener("submit",function(event){
     
     let username = form.username.value;
     let email = form.email.value;
-    let password = form.password.value;
+    let password = form.password.value;//ye saari id hai .value ke pahle
     let gender = form.gender.value;
     let mobile = form.mobile.value;
     let userobj ={username,email,password,gender,mobile} 
