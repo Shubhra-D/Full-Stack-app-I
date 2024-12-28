@@ -61,7 +61,9 @@
     background-color:rgb(226, 109, 166);
 }
 #form-todo>input{
-   background-color: rgb(84, 241, 163); 
+   background-color: rgb(84, 241, 163);
+   border:1px solid rgba(14, 216, 115, 0.842);
+
 }
     
 #todo-container{
@@ -69,9 +71,20 @@
     grid-template-columns: repeat(4,1fr);
     gap:20px;
     width:90%;
-    margin:auto;
+    margin: 10px auto;
 }
 .todo-card{
   box-shadow:rgba(99,99,99,0.2) 0px 2px 8px 0px;
-   
+  /*border: 1px solid rgb(72, 72, 223);*/
+  padding-left: 20px; 
+
+}
+.pending{
+    border:2px solid blueviolet ;
+    animation: blinker 10s infinite;
+}
+@keyframes blinker{
+    0%{border:1px solid blue;}
+    50%{border:transparent;}
+    100%{border:1px solid blue;}
 }
